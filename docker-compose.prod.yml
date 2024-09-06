@@ -18,9 +18,7 @@ services:
     mem_limit: 5000M
 
   nginx:
-    build:
-      context: /home/admin_ai/ai/docker-civ/nginx
-      dockerfile: Dockerfile.prod
+    build: nginx
     ports:
       - 8003:80
     depends_on:
