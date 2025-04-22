@@ -10,6 +10,7 @@
 services:
   web:
     image: aicargomation.azurecr.io/ai-civ-web:v44
+    entrypoint: ""
     command: gunicorn --bind=0.0.0.0:5000 --timeout 600 app:app
     expose:
       - 5000
