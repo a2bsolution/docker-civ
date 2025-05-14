@@ -9,7 +9,7 @@
 # https://github.com/docker/awesome-compose
 services:
   web:
-    image: aicargomation.azurecr.io/ai-civ-web:v53
+    image: aicargomation.azurecr.io/ai-civ-web:v54
     expose:
       - 5000
     env_file:
